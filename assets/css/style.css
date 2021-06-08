@@ -106,12 +106,12 @@
         box-shadow: 0 4px 6px 0 rgba(12,0,46,.05);
     }
     .header-scrolled .navbar-brand img{
-        width: 125px;
+        width: 160px;
         height: auto;
     }
     .header-scrolled .nav-link-menu{
         font-size: 19px;
-		color: #24285b;
+		color: #91288F;
     }
     .header-scrolled .learn-more-btn{
         font-size: 18px;
@@ -121,12 +121,8 @@
 		display: block!important;
 	}
 	
-	.header-scrolled .navbar-brand-logo.logo{
-		display: none!important;
-	}
     .navbar{
-		margin-top: 10px;
-        background-color: transparent;
+        background: #ffffff;
         padding-top: 15px;
         padding-bottom: 15px;
         -webkit-transition: all .2s linear;
@@ -143,8 +139,11 @@
     .navbar-brand img {
 		margin-left: 15px;
 		margin-top: -10px;
-        width: 140px;
+        width: 180px;
 		height: auto;
+        -webkit-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        transition: all .3s linear;
     }
 	.navbar-brand-logo.logo-scroll{
 		display: none;
@@ -175,11 +174,11 @@
         font-family: Quicksand;
         font-weight: 700;
         font-size: 20px;
-        color: #ffffff;
+        color: #91288F;
         line-height: 1;
     }
     .learn-more-btn{
-        background-color: #7543f2;
+        background-color: #29ABE0;
         font-size: 18px;
         font-family: Poppins;
         font-weight: 600;
@@ -201,11 +200,11 @@
         font-size: 18px;
         font-family: Poppins;
         font-weight: 600;
-        color: #7543f2;
+        color: #29ABE0;
         padding: 15px 35px !important;
         border-radius: 50px;
 		box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-		border: 2px solid #7543f2;
+		border: 2px solid #29ABE0;
         display: flex;
 		margin-left: 10px;
         justify-content: center;
@@ -217,7 +216,7 @@
         border: 2px solid #5427c4;
     }
 	.btn-header{
-		background-color: #24285b!important;
+		background-color: #91288F!important;
 	}
 	.btn-header:hover{
 		background-color: #372780!important;
@@ -502,7 +501,7 @@
     	width: 150px;
     	height: 2px;
     	display: inline-block;
-    	background: #7543f2;
+    	background: #29ABE0;
     	margin: 8px 20px;
 	}
     .about-title{
@@ -512,7 +511,7 @@
         line-height: 1.25;
 		max-width: 1000px;
 		margin-bottom: 15px;
-        color: #24285b;
+        color: #91288F;
     }
     .about-text{
         font-family: Quicksand;
@@ -523,7 +522,7 @@
     }
     .about-text a{
         font-family: Poppins;
-		color: #7543f2;
+		color: #29ABE0;
         font-weight: 700;
         line-height: 1.5;
 		text-transform: uppercase;
@@ -585,7 +584,7 @@
     	width: 150px;
     	height: 2px;
     	display: inline-block;
-    	background: #7543f2;
+    	background: #29ABE0;
     	margin: 8px 20px;
 	}
     .portfolio-title{
@@ -595,7 +594,7 @@
         line-height: 1.25;
 		max-width: 1000px;
 		margin-bottom: 15px;
-        color: #24285b;
+        color: #91288F;
     }
     .portfolio-text{
         font-family: Quicksand;
@@ -606,14 +605,14 @@
     }
     .portfolio-text a{
         font-family: Poppins;
-		color: #24285b;
+		color: #91288F;
         font-weight: 700;
         line-height: 1.5;
 		text-transform: uppercase;
 		margin-top: 40px;
 		display: inline-block;
 		text-decoration: none;
-		border-bottom: 2px solid #7543f2;	
+		border-bottom: 2px solid #29ABE0;	
   		transition: 0.7s;
     }
     .portfolio-label{
@@ -639,7 +638,7 @@
 	.portfolio-masonry div{
 		position:relative;
 		width: 150px;
-    	background-color: #7543f2;
+    	background-color: #29ABE0;
     	margin: 0 1.5rem 1.5rem 0;
     	display: inline-block;
     	width: 100%;
@@ -649,14 +648,14 @@
 		background-color: transparent;
 		top: 10px;
     	color: #ffffff;
-    	text-align: left;
+    	text-align: center;
     	font-family: Poppins;
     	font-weight: 900;
 		text-transform: uppercase;
-    	font-size: 2.5em;
+    	font-size: 1.6em;
 		letter-spacing: -1px;
-		padding: 40px 55px;
-		line-height:1;
+		padding: 30px;
+		line-height:1.6em;
 		z-index: 0;
   	}
     .portfolio-container img{
@@ -712,7 +711,7 @@
 	.modal-close:before{
 		content: "\f00d";
 		font-family: FontAwesome;
-		background-color: #7543f2;
+		background-color: #29ABE0;
 		border-radius: 100px;
 		padding: 7px 10px;
 	}
@@ -812,11 +811,11 @@
 		margin-bottom: 20px;
         color: #ffffff;
     }
-	.solutions-container h3:before{
+	.solutions-container h3:after{
 		content: "";
     	width: 150px;
     	height: 2px;
-    	display: inline-block;
+    	display:block;
     	background: #79edcd;
     	margin: 8px 20px 8px 0;
 	}
@@ -827,6 +826,7 @@
         font-weight: 600;
         line-height: 1.5;
         max-width: 700px;
+        margin-bottom: 20px;
     }
     .solutions-text a{
         font-family: Poppins;
@@ -837,7 +837,7 @@
 		margin-top: 40px;
 		display: inline-block;
 		text-decoration: none;
-		border-bottom: 2px solid #7543f2;	
+		border-bottom: 2px solid #29ABE0;	
   		transition: 0.7s;
     }
     .solutions-text a:hover{
@@ -891,7 +891,7 @@
     	width: 150px;
     	height: 2px;
     	display: inline-block;
-    	background: #7543f2;
+    	background: #29ABE0;
     	margin: 8px 20px;
 	}
     .clients-title{
@@ -901,7 +901,7 @@
         line-height: 1.25;
 		max-width: 1000px;
 		margin-bottom: 15px;
-        color: #24285b;
+        color: #91288F;
     }
     .clients-text{
         font-family: Quicksand;
@@ -912,14 +912,14 @@
     }
     .clients-text a{
         font-family: Poppins;
-		color: #24285b;
+		color: #91288F;
         font-weight: 700;
         line-height: 1.5;
 		text-transform: uppercase;
 		margin-top: 40px;
 		display: inline-block;
 		text-decoration: none;
-		border-bottom: 2px solid #7543f2;	
+		border-bottom: 2px solid #29ABE0;	
   		transition: 0.7s;
     }
 	.client-logos.top{
@@ -1040,7 +1040,7 @@
 		margin-top: 40px;
 		display: inline-block;
 		text-decoration: none;
-		border-bottom: 2px solid #7543f2;	
+		border-bottom: 2px solid #29ABE0;	
   		transition: 0.7s;
     }
     .cta-text a:hover{
@@ -1082,7 +1082,7 @@
         padding-right: 40px;
     }
     .footer-logo img{
-        width: 120px;
+        width: 220px;
         margin-bottom: 17px;
     }
     .footer-logo p{
@@ -1186,7 +1186,7 @@
         font-size: 40px;
         line-height: 1;
 		margin-bottom: 15px;
-        color: #24285b;
+        color: #91288F;
 	}
 	.legal-modal p{
 		color: #234c87;
