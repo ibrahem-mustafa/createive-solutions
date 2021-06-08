@@ -747,6 +747,7 @@
     @media screen and (max-width: 799.98px){
 		.portfolio-modal>div{
 			height: 70vh;
+            width: 93vw;
 		}
 		.portfolio-modal>div img{
 			height: calc(70vh - 20px);	
