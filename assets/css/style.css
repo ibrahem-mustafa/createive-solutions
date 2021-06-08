@@ -355,7 +355,8 @@
 			margin-top: 5px;
             background-color: #FFFFFF;
         }
-		.header-scrolled .navbar-toggler-icon{
+		.navbar-toggler-icon{
+            display: inline-block!important;
 			filter: brightness(10%) sepia(100%) hue-rotate(190deg) saturate(400%);	
 		}
         .nav-link-menu{
@@ -728,6 +729,7 @@
 		color: #ffffff;
 		text-decoration: none;		
 	}
+    
     @media screen and (max-width: 991.98px){
 		.portfolio-section{
         padding-bottom: 100px;
@@ -738,6 +740,9 @@
 		.portfolio-text a:first-of-type{
 			margin-bottom: 50px;
 		}
+        .header-scrolled {
+            height: 85px;
+        }
     }
     @media screen and (max-width: 799.98px){
 		.portfolio-modal>div{
