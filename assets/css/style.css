@@ -700,7 +700,7 @@
 	}
 	.portfolio-modal>div img{
 		height: calc(90vh - 20px);
-		width: auto;
+		width: 100%;
   		transition: 0.7s;		
 	}
 	.portfolio-modal p{
